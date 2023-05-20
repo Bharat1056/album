@@ -1,12 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 body{
-    font-family: 'Homemade Apple', cursive;
-    font-size:20px;
     background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size:cover;
     background-repeat:repeat;
     color:#000;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
   }
   html{
     scroll-behavior: smooth;
@@ -29,6 +29,9 @@ body{
     -moz-transition:all 1s ease;
     -webkit-transition:all 1s ease;
     top:50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   
   
@@ -134,5 +137,9 @@ body{
     font-size: 2em;
     transition: all 1s ease;
     cursor: none;
-    /* padding: 3em; */
+  }
+  @media screen (max-width: 1100px) {
+    .box img{
+      width: 100;
+    }
   }
