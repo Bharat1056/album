@@ -1,0 +1,138 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+body{
+    font-family: 'Homemade Apple', cursive;
+    font-size:20px;
+    background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    background-repeat:repeat;
+    color:#000;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .container{
+    margin:2em;
+    padding:0;
+  }
+  
+  .box{
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    border:solid 12px #fff;
+    background:#fff;
+    box-shadow:0 0 15px 0px #555;
+    transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    top:50px;
+  }
+  
+  
+  .box:hover{
+    top:0px;
+    opacity:0.5;
+  }
+  
+  #img1{
+      transform:rotate(5deg);
+  }
+  
+  #img2{
+      transform:rotate(-5deg);
+  }
+  
+  #img3{
+      transform:rotate(5deg);
+  }
+  
+  #img4{
+      transform:rotate(-5deg);
+  }
+  #img5{
+      transform:rotate(5deg);
+  }
+  #img6{
+      transform:rotate(-10deg);
+  }
+  #img7{
+      transform:rotate(10deg);
+  }
+  #img8{
+      transform:rotate(-10deg);
+  }
+  #img9{
+      transform:rotate(10deg);
+  }
+  #img10{
+      transform:rotate(-10deg);
+  }
+  #img11{
+      transform:rotate(5deg);
+  }
+  #img12{
+      transform:rotate(-5deg);
+  }
+  #img13{
+      transform:rotate(5deg);
+  }
+  #img14{
+      transform:rotate(-5deg);
+  }
+  #img15{
+      transform:rotate(5deg);
+  }
+  
+  
+  p{
+    margin:-15px 0 0 0;
+    font-family: 'Caveat', cursive;
+  }
+  
+  .light{
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    width:700px;
+    height:700px;
+    background:#fff;
+    filter:blur(100px);
+    opacity:0.3;
+    pointer-events:none;
+  }
+  .line{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .last_line{
+    position: relative;
+    margin: 2px;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    padding: 3em;
+    background-color: transparent;
+  }
+  .last_line p{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: 'Playfair Display', serif;
+  }
+  .last_line p:hover{
+    color: black;
+    font-weight: 900;
+    font-size: 2em;
+    transition: all 1s ease;
+    cursor: none;
+    /* padding: 3em; */
+  }
